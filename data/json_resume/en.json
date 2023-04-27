@@ -1,0 +1,231 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Samuel Riddle",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "samuel.riddle1@gmail.com",
+    "phone": "(801) 673-7350",
+    "url": "https://riddle.sh",
+    "summary": "Solutions-driven Engineer with 10+ years of experience in developing, automating, and maintaining high-traffic web applications and software solutions. Proven ability to build, mentor, and lead teams of engineers and developers in order to achieve organizational goals.",
+    "location": {
+      "city": "Salt Lake City, Utah"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "sjriddle",
+        "url": "https://github.com/sjriddle"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Samuel Riddle",
+        "url": "https://www.linkedin.com/in/samuel-riddle/"
+      },
+      {
+        "network": "Twitter",
+        "username": "SamuelJRiddle",
+        "url": "https://twitter.com/SamuelJRiddle"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Near",
+      "position": "Site Reliability Engineer",
+      "url": "https://near.org",
+      "startDate": "2022-08-01",
+      "highlights": [
+        "Implemented CI/CD pipelines using BuildKite, Packer, Terraform, Ansible, and GitHub Actions, reducing toil and enabling faster, more reliable deployments.",
+        "Developed indexer service in Rust to ingest real-time blockchain JSON-RPC data, stream it through Kafka, and store it in Postgres, resulting in an increase in block processing speed.",
+        "Created a custom, cloud-native API gateway using Kong, Redis, Prometheus, and Kubernetes, enabling features such as rate limiting, caching mechanisms, bot detection, custom plugins, and advanced authentication."
+      ]
+    },
+    {
+      "name": "Adobe",
+      "position": "Site Reliability Engineer",
+      "url": "https://adobe.com",
+      "startDate": "2019-07-01",
+      "endDate": "2022-08-01",
+      "highlights": [
+        "Designed and implemented an internal monitoring, maintenance, and auto-remediation solution for distributed systems, enabling observability among Digital Experience teams.",
+        "Managed and configured global infrastructure consisting of over 4,000 on-premises Linux servers, ensuring high availability, performance, disaster recovery, and security across all locations.",
+        "Successfully migrated legacy applications to containerized solutions using Docker and orchestrated deployments with Kubernetes, enhancing scalability, resource efficiency, and ease of management."
+      ]
+    },
+    {
+      "name": "Younique",
+      "position": "DevOps Engineer",
+      "url": "https://www.youniqueproducts.com",
+      "startDate": "2017-03-01",
+      "endDate": "2019-07-01",
+      "highlights": [
+        "Maintained microservice architecture using Node.js, Python, and Go to support Younique’s applications and API implementations.",
+        "Managed a cloud-based infrastructure using AWS services, including EC2, S3, RDS, ECS, Fargate, and Lambda, to support web applications and services for over 10,000 daily users.",
+        "Mentored and trained developers and engineers in operational best-practices, thus reducing organizational silos and increasing contributor competency."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Utah Valley University",
+      "url": "https://www.uvu.edu/",
+      "area": "Information Systems - Application Development",
+      "studyType": "Bachelor of Science",
+      "startDate": "2012-06-01",
+      "endDate": "2016-06-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "SCSS",
+        "Tailwind",
+        "Styled Components",
+        "React",
+        "Next",
+        "Vue",
+        "Svelte"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "Rust",
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "PHP",
+        "SQL",
+        "GraphQL",
+        "Bash"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "keywords": [
+        "Amazon Web Services",
+        "Google Cloud Platform",
+        "Microsoft Azure"
+      ]
+    },
+    {
+      "name": "CI/CD Tools",
+      "keywords": [
+        "Git",
+        "Jenkins",
+        "BuildKite",
+        "GitHub Actions",
+        "Packer",
+        "Terraform",
+        "Cloudformation"
+      ]
+    },
+    {
+      "name": "Configuration Management",
+      "keywords": [
+        "Ansible",
+        "Chef",
+        "SaltStack"
+      ]
+    },
+    {
+      "name": "Big Data",
+      "keywords": [
+        "Apache Spark",
+        "Apache Kafka",
+        "Databricks",
+        "ETL"
+      ]
+    },
+
+    {
+      "name": "Containerization",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Kustomize"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "DynamoDB",
+        "ScyllaDB",
+        "Firebase"
+      ]
+    },
+    {
+      "name": "Monitoring, Logging, & On-Call",
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "New Relic",
+        "Catchpoint",
+        "Splunk",
+        "Nagios",
+        "PagerDuty",
+        "OpsGenie"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "keywords": [
+        "MacOS",
+        "Debian",
+        "CentOS",
+        "Kali Linux",
+        "Arch Linux",
+        "Windows"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Elision Labs",
+      "description": "Elision Labs provides infrastructure and development services for blockchain projects.",
+      "startDate": "2021-01-01",
+      "endDate": "2022-06-15",
+      "roles": [
+        "Founder",
+        "Developer"
+      ],
+      "url": "github.com/elision-labs"
+    },
+    {
+      "name": "FoxSwap",
+        "description": "FoxSwap is a decentralized exchange built on the Harmony EVM.",
+      "startDate": "2021-01-01",
+      "endDate": "2022-06-15",
+      "roles": [
+        "Co-Founder",
+        "Developer"
+      ],
+      "url": "app.farmersonly.fi"
+    },
+    {
+      "name": "Amaterasu Finance",
+      "description": "Amaterasu Finance is a decentralized exchange built on NEAR's Aurora EVM.",
+      "startDate": "2021-01-01",
+      "endDate": "2022-12-15",
+      "roles": [
+        "Developer"
+      ],
+      "url": "app.amaterasu.fi"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2023-04-26T15:53:00"
+  }
+}

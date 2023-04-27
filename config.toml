@@ -1,0 +1,77 @@
+baseURL = 'https://riddle.sh/'
+languageCode = 'en-us'
+title = 'Sam Riddle | Dev'
+theme = 'chringel-hugo-theme'
+
+author = 'Sam Riddle'
+copyright = 'Copyright © 2022, Sam Riddle, all rights reserved.'
+
+pluralizelisttitles = false
+paginate = 10
+enableEmoji = true
+
+[Params]
+    name = 'riddle.sh'
+    description = 'I build software, architect systems, and consult startups to enterprise businesses in DevOps Engineering, Full-Stack Development, Software Architecture, Systems Adminitration, and Cloud Technologies'
+
+    github_user = 'sjriddle'
+    github_repo = 'https://github.com/sjriddle/riddle.sh'
+    github_banner = true
+
+    favicon = 'favicon.ico'
+    headerTitle = 'riddle@sh: ~/$'
+
+    # User image
+    titleImage = 'images/index.png'
+    
+     
+    # Copyright text displayed in footer
+    footerCopyrightText = 'Sam Riddle 2022'
+
+
+[Params.favicons]
+  appleTouchIcon = '/apple-touch-icon.png'
+  icon32 = '/favicon-32x32.png'
+  icon16 = '/favicon-16x16.png'
+  manifest = '/site.webmanifest'
+  maskIcon = '/safari-pinned-tab.svg'
+  msApplicationTileColor = '#5bbad5'
+  themeColor = '#ffffff'
+
+[Params.hcard]
+  avatar = "images/index.png"
+  fullName = "Sam Riddle"
+  pronouns = [ "he", "him" ]
+  nickname = "sjriddle"
+  showLocation = true
+  city = "Salt Lake City"
+  region = "Utah"
+  country = "USA"
+
+
+# Social icons to be displayed on the front page
+[[menu.social]]
+  name = 'GitHub'
+  url = 'https://github.com/sjriddle'
+
+[[menu.social]]
+  name = 'Twitter'
+  url = 'https://twitter.com/SamuelJRiddle'
+
+[[menu.social]]
+  name = 'LinkedIn'
+  url = 'https://www.linkedin.com/in/samuel-riddle/'
+
+[[menu.social]]
+  name = 'RSS'
+  url = 'http://riddle.sh/index.xml'
+
+# To make purging of CSS classes work in production
+[build]
+  writeStats = true
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+

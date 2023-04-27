@@ -1,0 +1,52 @@
+baseURL = 'http://samriddle.dev/'
+languageCode = 'en-us'
+title = 'Sam Riddle | Dev'
+theme = "chringel-hugo-theme"
+
+author = "Samuel Riddle"
+copyright = "Copyright © 2022, Samuel Riddle, all rights reserved."
+
+pluralizelisttitles = false
+paginate = 10
+enableEmoji = true
+
+[Params]
+    name = "Developer Portfolio"
+    description = "Sam Riddle developer portfolio and resume"
+
+    github_user = "sjriddle"
+    github_repo = "https://github.com/sjriddle/sjriddle.dev"
+    github_banner = true
+
+    favicon = "favicon.ico"
+
+    # Title to be displayed in header
+    headerTitle = 'sjriddle@dev: ~/$'
+    # User image
+    titleImage = 'images/index.png'
+    # Copyright text displayed in footer
+    footerCopyrightText = 'Samuel Riddle 2022'
+
+
+# Social icons to be displayed on the front page
+[[menu.social]]
+  name = "GitHub"
+  url = "https://github.com/sjriddle"
+
+[[menu.social]]
+  name = "Twitter"
+  url = "https://twitter.com/SamuelJRiddle"
+
+[[menu.social]]
+  name = "RSS"
+  url = "http://sjriddle.dev/index.xml"
+
+# To make purging of CSS classes work in production
+[build]
+  writeStats = true
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+
