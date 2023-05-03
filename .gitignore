@@ -4,6 +4,7 @@
 *.iml
 out
 gen
+*.DS_Store
 
 # Generated files by Hugo
 /public/

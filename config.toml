@@ -22,11 +22,11 @@ enableEmoji = true
     headerTitle = 'riddle@sh: ~/$'
 
     # User image
-    titleImage = 'images/index.png'
+    titleImage = 'images/riddle-sh.png'
     
      
     # Copyright text displayed in footer
-    footerCopyrightText = 'Sam Riddle 2022'
+    footerCopyrightText = 'Samuel Riddle 2023'
 
 
 [Params.favicons]

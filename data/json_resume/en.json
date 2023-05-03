@@ -3,11 +3,13 @@
   "basics": {
     "name": "Samuel Riddle",
     "label": "Software Engineer",
-    "image": "",
+    "picture": "https://riddle-assets.s3.us-west-2.amazonaws.com/images/resume-pic.png",
+    "image": "https://riddle-assets.s3.us-west-2.amazonaws.com/images/resume-pic.png",
     "email": "samuel.riddle1@gmail.com",
     "phone": "(801) 673-7350",
     "url": "https://riddle.sh",
-    "summary": "Solutions-driven Engineer with 10+ years of experience in developing, automating, and maintaining high-traffic web applications and software solutions. Proven ability to build, mentor, and lead teams of engineers and developers in order to achieve organizational goals.",
+    "website": "https://riddle.sh",
+    "summary": "Solutions-driven Engineer over 10 years of experience in architecting, developing, and maintaining high-traffic web applications, scalable software solutions, and reliable distributed systems. Proven ability to build, mentor, and lead teams of engineers and developers in order to achieve organizational goals.",
     "location": {
       "city": "Salt Lake City, Utah"
     },
@@ -23,9 +25,19 @@
         "url": "https://www.linkedin.com/in/samuel-riddle/"
       },
       {
+        "network": "Reddit",
+        "username": "sjrid",
+        "url": "https://www.reddit.com/user/sjrid"
+      },
+      {
         "network": "Twitter",
         "username": "SamuelJRiddle",
         "url": "https://twitter.com/SamuelJRiddle"
+      },
+      {
+        "network": "Medium",
+        "username": "sjriddle",
+        "url": "https://sjriddle.medium.com"
       }
     ]
   },
@@ -36,9 +48,9 @@
       "url": "https://near.org",
       "startDate": "2022-08-01",
       "highlights": [
-        "Implemented CI/CD pipelines using BuildKite, Packer, Terraform, Ansible, and GitHub Actions, reducing toil and enabling faster, more reliable deployments.",
-        "Developed indexer service in Rust to ingest real-time blockchain JSON-RPC data, stream it through Kafka, and store it in Postgres, resulting in an increase in block processing speed.",
-        "Created a custom, cloud-native API gateway using Kong, Redis, Prometheus, and Kubernetes, enabling features such as rate limiting, caching mechanisms, bot detection, custom plugins, and advanced authentication."
+        "Created monitoring and alerting systems using Prometheus, Grafana, PagerDuty, and Terraform, enabling proactive incident management and reducing mean time to resolution (MTTR).",
+        "Developed and maintained backend services using Rust, Python, and Typescript, focusing on scalability, reliability, and performance",
+        "Implemented custom, cloud-native API gateway using Kong, Redis, and Kubernetes clusters, enabling features such as rate limiting, caching mechanisms, bot detection, custom plugins, and advanced authentication."
       ]
     },
     {
@@ -118,11 +130,10 @@
       "keywords": [
         "Git",
         "Jenkins",
+        "CircleCI",
         "BuildKite",
         "GitHub Actions",
-        "Packer",
-        "Terraform",
-        "Cloudformation"
+        "Packer"
       ]
     },
     {
@@ -130,16 +141,24 @@
       "keywords": [
         "Ansible",
         "Chef",
-        "SaltStack"
+        "SaltStack",
+        "Terraform",
+        "Cloudformation",
+        "Cobbler"
+
       ]
     },
     {
       "name": "Big Data",
       "keywords": [
-        "Apache Spark",
-        "Apache Kafka",
+        "Spark",
+        "Kafka",
+        "Kinesis",
+        "Glue",
+        "Redshift",
         "Databricks",
-        "ETL"
+        "BigQuery",
+        "Looker"
       ]
     },
 
@@ -149,19 +168,24 @@
         "Docker",
         "Kubernetes",
         "Helm",
-        "Kustomize"
+        "Kustomize",
+        "EKS",
+        "ECS",
+        "Fargate"
       ]
     },
     {
       "name": "Databases",
       "keywords": [
         "MySQL",
+        "SQLite",
         "PostgreSQL",
         "MongoDB",
-        "Redis",
         "DynamoDB",
-        "ScyllaDB",
-        "Firebase"
+        "RocksDB",
+        "Cassandra",
+        "Firebase",
+        "Redis"
       ]
     },
     {
@@ -170,9 +194,10 @@
         "Prometheus",
         "Grafana",
         "New Relic",
+        "Nagios",
+        "Datadog",
         "Catchpoint",
         "Splunk",
-        "Nagios",
         "PagerDuty",
         "OpsGenie"
       ]
@@ -182,9 +207,11 @@
       "keywords": [
         "MacOS",
         "Debian",
-        "CentOS",
+        "Ubuntu",
         "Kali Linux",
+        "CentOS",
         "Arch Linux",
+        "Alpine Linux",
         "Windows"
       ]
     }
@@ -193,8 +220,7 @@
     {
       "name": "Elision Labs",
       "description": "Elision Labs provides infrastructure and development services for blockchain projects.",
-      "startDate": "2021-01-01",
-      "endDate": "2022-06-15",
+      "startDate": "2022-03-01",
       "roles": [
         "Founder",
         "Developer"
@@ -203,9 +229,9 @@
     },
     {
       "name": "FoxSwap",
-        "description": "FoxSwap is a decentralized exchange built on the Harmony EVM.",
-      "startDate": "2021-01-01",
-      "endDate": "2022-06-15",
+        "description": "FoxSwap is a decentralized application that provides features such as auto-compounding vaults, yield farms, token exchange, and escrow service built on the Harmony EVM.",
+      "startDate": "2020-05-01",
+      "endDate": "2022-09-15",
       "roles": [
         "Co-Founder",
         "Developer"

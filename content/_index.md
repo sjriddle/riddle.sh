@@ -1,7 +1,7 @@
 ---
 author: Sam Riddle
-title: Sam Riddle | Dev
+title: Sam Riddle
 date: 2023-04-26
 ---
 
-Put your  in one place.
+Developer, Architect, and Leader
