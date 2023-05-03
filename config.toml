@@ -1,14 +1,17 @@
 baseURL = 'https://riddle.sh/'
 languageCode = 'en-us'
 title = 'Sam Riddle | Dev'
-theme = 'chringel-hugo-theme'
+
 
 author = 'Sam Riddle'
-copyright = 'Copyright © 2022, Sam Riddle, all rights reserved.'
+copyright = 'Copyright © 2023, Sam Riddle, all rights reserved.'
 
 pluralizelisttitles = false
 paginate = 10
 enableEmoji = true
+
+RelativeURLs = true
+CanonifyURLs = true
 
 [Params]
     name = 'riddle.sh'
@@ -22,11 +25,14 @@ enableEmoji = true
     headerTitle = 'riddle@sh: ~/$'
 
     # User image
-    titleImage = 'images/riddle-sh.png'
-    
-     
+    titleImage = 'images/profile.webp'
+
     # Copyright text displayed in footer
     footerCopyrightText = 'Samuel Riddle 2023'
+
+    # Show 'Previous Post/Next Post' navigation
+    showPrevNextPostNavigation = true
+
 
 
 [Params.favicons]
@@ -42,12 +48,11 @@ enableEmoji = true
   avatar = "images/index.png"
   fullName = "Sam Riddle"
   pronouns = [ "he", "him" ]
-  nickname = "sjriddle"
+  nickname = "Peechz"
   showLocation = true
   city = "Salt Lake City"
   region = "Utah"
   country = "USA"
-
 
 # Social icons to be displayed on the front page
 [[menu.social]]
@@ -57,6 +62,10 @@ enableEmoji = true
 [[menu.social]]
   name = 'Twitter'
   url = 'https://twitter.com/SamuelJRiddle'
+
+[[menu.social]]
+name = 'Email'
+url = 'mailto:samuel.riddle1@gmail.com'
 
 [[menu.social]]
   name = 'LinkedIn'
