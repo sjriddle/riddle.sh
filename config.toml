@@ -1,7 +1,7 @@
 baseURL = 'https://riddle.sh/'
 languageCode = 'en-us'
 title = 'Sam Riddle | Dev'
-
+theme = 'chringel-hugo-theme'
 
 author = 'Sam Riddle'
 copyright = 'Copyright © 2023, Sam Riddle, all rights reserved.'
@@ -9,7 +9,6 @@ copyright = 'Copyright © 2023, Sam Riddle, all rights reserved.'
 pluralizelisttitles = false
 paginate = 10
 enableEmoji = true
-
 RelativeURLs = true
 CanonifyURLs = true
 
