@@ -7,7 +7,8 @@
     "author": "dirkolbrich <github@dirkolbrich.de>",
     "license": "MIT",
     "scripts": {
-        "start": "hugo --gc"
+        "start": "hugo --gc",
+        "build": "hugo --gc -D"
     },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^4.0.3",
@@ -15,8 +16,8 @@
         "@tailwindcss/forms": "^0.4.0",
         "@tailwindcss/line-clamp": "^0.3.1",
         "@tailwindcss/typography": "^0.5.2",
-        "autoprefixer": "^10.4.2",
-        "postcss": "^8.4.7",
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.23",
         "postcss-cli": "^8.3.1",
         "postcss-import": "^14.0.2",
         "prettier": "^2.7.1",
