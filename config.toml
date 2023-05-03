@@ -25,7 +25,7 @@ CanonifyURLs = true
     headerTitle = 'riddle@sh: ~/$'
 
     # User image
-    titleImage = 'images/profile.webp'
+    titleImage = 'images/riddle-sh.png'
 
     # Copyright text displayed in footer
     footerCopyrightText = 'Samuel Riddle 2023'
