@@ -2,15 +2,13 @@ baseURL = 'https://riddle.sh/'
 languageCode = 'en-us'
 title = 'Sam Riddle | Dev'
 theme = 'chringel-hugo-theme'
-
+themeDir = 'themes'
+publishDir = "public"
 author = 'Sam Riddle'
 copyright = 'Copyright © 2023, Sam Riddle, all rights reserved.'
 
-pluralizelisttitles = false
 paginate = 10
 enableEmoji = true
-RelativeURLs = true
-CanonifyURLs = true
 
 [Params]
     name = 'riddle.sh'
@@ -31,8 +29,6 @@ CanonifyURLs = true
 
     # Show 'Previous Post/Next Post' navigation
     showPrevNextPostNavigation = true
-
-
 
 [Params.favicons]
   appleTouchIcon = '/apple-touch-icon.png'
@@ -72,7 +68,7 @@ url = 'mailto:samuel.riddle1@gmail.com'
 
 [[menu.social]]
   name = 'RSS'
-  url = 'http://riddle.sh/index.xml'
+  url = 'https://riddle.sh/index.xml'
 
 # To make purging of CSS classes work in production
 [build]

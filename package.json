@@ -1,0 +1,31 @@
+{
+  "name": "riddle-sh",
+  "version": "0.1.0",
+  "description": "riddle.sh portfolio",
+  "repository": "https://github.com/sjriddle/riddle.sh",
+  "author": "Samuel Riddle",
+  "scripts": {
+    "build": "hugo --gc",
+    "start": "hugo server"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.7",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2",
+    "prettier": "^2.7.1",
+    "prettier-plugin-go-template": "^0.0.12",
+    "tailwindcss": "^3.0.23"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}
