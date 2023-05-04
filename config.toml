@@ -1,8 +1,7 @@
 baseURL = 'https://riddle.sh/'
 languageCode = 'en-us'
 title = 'Sam Riddle | Dev'
-theme = 'chringel-hugo-theme'
-themeDir = 'themes'
+
 publishDir = "public"
 author = 'Sam Riddle'
 copyright = 'Copyright © 2023, Sam Riddle, all rights reserved.'
