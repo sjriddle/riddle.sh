@@ -78,16 +78,16 @@
   {{ end }}
   <link rel="canonical" href="{{ .Permalink }}" />
 
-  {{ $styles := resources.Get "css/build.css" }}
+  {{ $styles := resources.Get "./assets/css/build.css" }}
   {{ $env := getenv "HUGO_THEME_DEVELOPMENT" }}
   {{ if eq $env "true" }}
-    {{ $styles = resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
+    {{ $styles = resources.Get "./assets/css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
   {{ end }}
 
   {{- if .Site.IsServer }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
   {{ else }}
-    {{- $styles := $styles| minify | fingerprint | resources.PostProcess -}}
+    {{ $styles := resources.Get "./assets/css/styles.css" | minify | fingerprint | resources.PostProcess -}}
     <link
       rel="stylesheet"
       href="{{ $styles.Permalink }}"
