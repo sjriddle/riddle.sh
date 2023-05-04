@@ -1,0 +1,8 @@
+@import "base.css";
+@import "comfortaa.css";
+@import "firasans.css";
+@import "resume.css";
+
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
