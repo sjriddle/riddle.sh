@@ -22,9 +22,10 @@
         <div class="flex justify-center space-x-4">
           {{ range .Site.Menus.social }}
             <a
-              rel="me"
+              rel="noreferrer noopener"
               href="{{ .URL }}"
               title="{{ .Name }}"
+              target="_blank"
               class="text-gray-700 dark:text-gray-200 hover:text-accent-400 transition-colors duration-200"
             >
               {{ $logoName := printf "%s%s" "logo-" (lower .Name) }}
