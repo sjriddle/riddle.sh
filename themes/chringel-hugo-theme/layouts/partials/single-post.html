@@ -20,7 +20,7 @@
         <div class="notice">
           <p>
             This post is part of the
-            <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
             series.
           </p>
         </div>
@@ -42,7 +42,7 @@
                 {{- if eq .File.UniqueID $.File.UniqueID -}}
                   <b>{{ .Title }}</b>
                 {{- else -}}
-                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                 {{- end -}}
               </li>
             {{- end -}}
