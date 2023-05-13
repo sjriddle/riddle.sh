@@ -8,7 +8,7 @@
       {{ $image := resources.Get . }}
       <img
         class="u-photo"
-        src="{{ ($image.Fit "200x200 webp").RelPermalink }}"
+        src="{{ ($image.Fit "800x800 webp").RelPermalink }}"
         width="200"
         height="200"
         alt="{{ $.Site.Params.Hcard.FullName }}"

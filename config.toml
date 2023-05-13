@@ -24,7 +24,7 @@ headerTitle = 'riddle@sh: ~/$'
 titleImage = 'images/riddle-sh.png'
 
 # Copyright text displayed in footer
-footerCopyrightText = 'Samuel Riddle 2023'
+footerCopyrightText = '© Sam Riddle - 2023'
 
 # Show 'Previous Post/Next Post' navigation
 showPrevNextPostNavigation = true
