@@ -69,7 +69,7 @@ url = 'https://www.linkedin.com/in/samuel-riddle/'
 
 [[menu.social]]
 name = 'RSS'
-url = 'http://riddle.sh/rss.xml'
+url = 'https://riddle.sh/index.xml'
 
 # To make purging of CSS classes work in production
 [build]
@@ -79,4 +79,5 @@ writeStats = true
 [markup]
 [markup.highlight]
 style = 'dracula'
+
 
