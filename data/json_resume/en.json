@@ -9,7 +9,7 @@
     "phone": "(801) 673-7350",
     "url": "https://riddle.sh",
     "website": "https://riddle.sh",
-    "summary": "Solutions-driven Engineer over 10 years of experience in architecting, developing, and maintaining high-traffic web applications, scalable software solutions, and reliable distributed systems. Proven ability to build, mentor, and lead teams of engineers and developers in order to achieve organizational goals.",
+    "summary": "Solutions-driven Engineer over a decade of experience in architecting, developing, and maintaining high-traffic web applications, scalable software solutions, and reliable distributed systems. Proven ability to build, mentor, and lead teams of engineers and developers in order to achieve organizational goals. At my core, I am a problem-solver and always strive to turn complex problems into simple, efficient solutions. I aim to help others achieve their full potential by leveraging the right mix of software solutions and operational strategies.",
     "location": {
       "city": "Salt Lake City, Utah"
     },
@@ -46,35 +46,47 @@
       "name": "Near",
       "position": "Site Reliability Engineer",
       "url": "https://near.org",
-      "startDate": "2022-08-01",
+      "startDate": "2022-09-01",
       "highlights": [
-        "Created monitoring and alerting systems using Prometheus, Grafana, PagerDuty, and Terraform, enabling proactive incident management and reducing mean time to resolution (MTTR).",
-        "Developed and maintained backend services using Rust, Python, and Typescript, focusing on scalability, reliability, and performance",
-        "Implemented custom, cloud-native API gateway using Kong, Redis, and Kubernetes clusters, enabling features such as rate limiting, caching mechanisms, bot detection, custom plugins, and advanced authentication."
+        "Spearheaded the design and deployment of our extensive monitoring and logging systems using Prometheus, Grafana, Mirmir, and Synthetics, with further optimizations achieved, while employing Terraform for consistent infrastructure state and tidy Infrastructure as Code.",
+        "Designed and implemented a custom, cloud-native API gateway using Kong, Redis, and Kubernetes clusters, enabling features such as rate limiting, caching mechanisms, bot detection, custom plugins, and advanced authentication.",
+        "Constructed a GraphQL API for NEAR's blockchain data models, providing clients with efficient, flexible data access, and leveraged GraphQL subscriptions to implement real-time updates in the application, smart contracts, and on-chain analytics, significantly improving user experience."
       ]
     },
     {
       "name": "Adobe",
       "position": "Site Reliability Engineer",
       "url": "https://adobe.com",
-      "startDate": "2019-07-01",
-      "endDate": "2022-08-01",
+      "startDate": "2019-09-01",
+      "endDate": "2022-09-01",
       "highlights": [
-        "Designed and implemented an internal monitoring, maintenance, and auto-remediation solution for distributed systems, enabling observability among Digital Experience teams.",
+        "Implemented the auto-remediation task engine (ARTE) which consists of a Python based CLI, REST API, WebSocket, and a Celery middleware for task execution",
         "Managed and configured global infrastructure consisting of over 4,000 on-premises Linux servers, ensuring high availability, performance, disaster recovery, and security across all locations.",
         "Successfully migrated legacy applications to containerized solutions using Docker and orchestrated deployments with Kubernetes, enhancing scalability, resource efficiency, and ease of management."
       ]
     },
     {
-      "name": "Younique",
+      "name": "Western Governors University",
       "position": "DevOps Engineer",
       "url": "https://www.youniqueproducts.com",
-      "startDate": "2017-03-01",
-      "endDate": "2019-07-01",
+      "startDate": "2018-10-01",
+      "endDate": "2019-09-01",
       "highlights": [
-        "Maintained microservice architecture using Node.js, Python, and Go to support Younique’s applications and API implementations.",
+        "Automated the deployment of infrastructure and applications using Cloudformation, Chef, and Jenkins, reducing deployment time by over 90% and increasing deployment frequency by over 300%.",
         "Managed a cloud-based infrastructure using AWS services, including EC2, S3, RDS, ECS, Fargate, and Lambda, to support web applications and services for over 10,000 daily users.",
         "Mentored and trained developers and engineers in operational best-practices, thus reducing organizational silos and increasing contributor competency."
+      ]
+    },
+    {
+      "name": "Younique",
+      "position": "Software Developer, Infrastructure",
+      "url": "https://www.youniqueproducts.com",
+      "startDate": "2015-02-01",
+      "endDate": "2018-10-01",
+      "highlights": [
+        "Restructured core PHP monolith into a distributed, microservice oriented architecture of containerized and serverless applications, allowing services to independently scale, augment observablity, and increase development velocity.",
+        "Built full-stack application to enable users to perform self-serviced return merchandise authorizations which reduced call-center traffic by over 30%, reducing customer-facing operating costs significantly.",
+        "Improved security by auditing and patching numerous vulnerabilities like SQL injections, XSS, CSRF, and Session Hijacking, while also establishing secure development standards, web application firewalls, and automated vulnerability scans."
       ]
     }
   ],
@@ -90,20 +102,6 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "SCSS",
-        "Tailwind",
-        "Styled Components",
-        "React",
-        "Next",
-        "Vue",
-        "Svelte"
-      ]
-    },
-    {
       "name": "Programming Languages",
       "keywords": [
         "Python",
@@ -113,43 +111,87 @@
         "Node.js",
         "PHP",
         "SQL",
-        "GraphQL",
+        "C#",
+        "Go",
         "Bash"
       ]
     },
     {
-      "name": "Cloud Platforms",
+      "name": "Web Technologies",
+      "keywords": [
+        "HTML",
+        "React",
+        "Next",
+        "Vue",
+        "Svelte",
+        "GraphQL",
+        "REST",
+        "Django",
+        "Flask",
+        "Celery",
+        "Prisma",
+        "Apollo",
+        "Node.js",
+        "Web Assembly",
+        "JSON-RPC",
+        "tRPC"
+      ]
+    },
+    {
+      "name": "Design Tools",
+      "keywords": [
+        "CSS",
+        "SCSS",
+        "SASS",
+        "Styled Components",
+        "Tailwind",
+        "ChakraUI",
+        "Bootstrap",
+        "MUI",
+        "Figma",
+        "Illustrator"
+
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
       "keywords": [
         "Amazon Web Services",
         "Google Cloud Platform",
-        "Microsoft Azure"
+        "Microsoft Azure",
+        "Git",
+        "GitHub",
+        "Jira",
+        "Confluence",
+        "Workfront"
       ]
     },
     {
       "name": "CI/CD Tools",
       "keywords": [
-        "Git",
         "Jenkins",
-        "CircleCI",
-        "BuildKite",
         "GitHub Actions",
-        "Packer"
+        "CircleCI",
+        "TravisCI",
+        "BuildKite",
+        "Packer",
+        "AWS CodePipeline",
+        "GCP Cloud Build"
       ]
     },
     {
-      "name": "Configuration Management",
+      "name": "Infrastructure as Code",
       "keywords": [
+        "Terraform",
+        "Cloudformation",
         "Ansible",
         "Chef",
         "SaltStack",
-        "Terraform",
-        "Cloudformation",
         "Cobbler"
-
       ]
     },
     {
-      "name": "Big Data",
+      "name": "Data Engineering & Analytics",
       "keywords": [
         "Spark",
         "Kafka",
@@ -163,14 +205,15 @@
     },
 
     {
-      "name": "Containerization",
+      "name": "Containerization & Orchestration",
       "keywords": [
         "Docker",
+        "Docker Composer",
+        "Docker Swarm",
         "Kubernetes",
+        "OpenShift",
+        "OLM",
         "Helm",
-        "Kustomize",
-        "EKS",
-        "ECS",
         "Fargate"
       ]
     },
@@ -179,40 +222,50 @@
       "keywords": [
         "MySQL",
         "SQLite",
-        "PostgreSQL",
+        "Postgres",
         "MongoDB",
         "DynamoDB",
         "RocksDB",
         "Cassandra",
         "Firebase",
-        "Redis"
+        "BigTable",
+        "BigQuery",
+        "Redis",
+        "OpenTSDB",
+        "TimescaleDB"
       ]
     },
     {
-      "name": "Monitoring, Logging, & On-Call",
+      "name": "Monitoring, Logging, & Tracing",
       "keywords": [
         "Prometheus",
         "Grafana",
+        "Mirmir",
+        "Synthetics",
         "New Relic",
-        "Nagios",
         "Datadog",
-        "Catchpoint",
         "Splunk",
-        "PagerDuty",
-        "OpsGenie"
+        "PagerDuty"
       ]
     },
     {
-      "name": "Operating Systems",
+      "name": "Concepts & Methodologies",
       "keywords": [
-        "MacOS",
-        "Debian",
-        "Ubuntu",
-        "Kali Linux",
-        "CentOS",
-        "Arch Linux",
-        "Alpine Linux",
-        "Windows"
+        "Infrastructure Automation",
+        "API Architecture",
+        "SDK Development",
+        "Continuous Integration and Delivery",
+        "Microservices Architecture",
+        "Web Application Optimization",
+        "Incident Management",
+        "Agile and Scrum Methodologies",
+        "Postmortem Analysis",
+        "Network and Security Infrastructure",
+        "Performance Tuning",
+        "Disaster Recovery Planning",
+        "Smart Contract Development",
+        "Blockchain Infrastructure",
+        "Decentralized Applications"
       ]
     }
   ],
