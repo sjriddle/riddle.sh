@@ -14,7 +14,7 @@
 
 ## About
 Houses the files and content that make up my portfolio site where I showcase my skills, projects, experiences, and more. It's built with the powerful static site generator - Hugo. Utilizes the [Chringel](https://github.com/chringel21/chringel-hugo-theme) theme.  
-  
+
 ## Features
 
 💼 Portfolio showcasing professional experience and personal projects  
